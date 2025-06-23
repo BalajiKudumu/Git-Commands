@@ -7,27 +7,28 @@ This README provides essential Git commands for working with GitHub using Git CM
 
 ## ⚙️ Setup & Config
 
+Sets your global Git username (used for all repositories).
 ```bash
 git config --global user.name "Your Name"
 ```
-Sets your global Git username (used for all repositories).
 
+Sets your global email.
 ```bash
 git config --global user.email "your_email@example.com"
 ```
-Sets your global email.
 
+Check local or global Git username.
 ```bash
 git config user.name
 git config --global user.name
 ```
-Check local or global Git username.
 
+List all config values (local or global).
 ```bash
 git config --list
 git config --global --list
 ```
-List all config values (local or global).
+
 
 ---
 
@@ -37,6 +38,11 @@ List all config values (local or global).
 git init
 ```
 Initialize a new Git repository.
+
+```bash
+git remote add origin https://github.com/USERNAME/REPO_NAME.git
+```
+Create a new repository
 
 ```bash
 git clone https://github.com/username/repo.git
