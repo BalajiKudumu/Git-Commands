@@ -1,11 +1,11 @@
 
-# 🚀 Git Commands Cheat Sheet
+# Git Commands Cheat Sheet
 
 This README provides essential Git commands for working with GitHub using Git CMD (Command Prompt), along with brief explanations.
 
 ---
 
-## ⚙️ Setup & Config
+## Setup & Config
 
 Sets your global Git username (used for all repositories).
 ```bash
@@ -32,7 +32,7 @@ git config --global --list
 
 ---
 
-## 📁 Create / Clone Repos
+## Create / Clone Repos
 
 ```bash
 git init
@@ -47,7 +47,7 @@ Clone an existing repository from GitHub.
 
 ---
 
-## 📄 Basic Workflow
+## Basic Workflow
 
 ```bash
 git status
@@ -77,7 +77,7 @@ Pull latest changes from GitHub.
 
 ---
 
-## 🌿 Branching
+## Branching
 
 ```bash
 git branch
@@ -106,7 +106,7 @@ Merge specified branch into current branch.
 
 ---
 
-## 🔄 Undo / Reset
+## Undo / Reset
 
 ```bash
 git restore filename
@@ -125,7 +125,7 @@ Reset all files to last commit (warning: destructive).
 
 ---
 
-## 🗑️ Remove / Rename
+## Remove / Rename
 
 ```bash
 git rm filename
@@ -139,7 +139,7 @@ Rename a file and stage the rename.
 
 ---
 
-## 📝 Logs
+## Logs
 
 ```bash
 git log
@@ -153,7 +153,7 @@ Compact graph of all commits.
 
 ---
 
-## 🔑 Authentication
+## Authentication
 
 ```bash
 git push https://username@github.com/username/repo.git
@@ -162,7 +162,7 @@ Push with username (use PAT/token in place of password).
 
 ---
 
-## 🌍 Change Global Username / Email
+## Change Global Username / Email
 
 ```bash
 git config --global user.name "New Name"
@@ -172,7 +172,7 @@ Update global Git identity.
 
 ---
 
-## ⏩ Additional Useful Commands
+## Additional Useful Commands
 
 ```bash
 git stash
@@ -206,4 +206,4 @@ Show details of a specific commit.
 
 ---
 
-✅ **Tip:** Use SSH or Personal Access Tokens (PAT) for GitHub authentication to avoid password issues.
+**Tip:** Use SSH or Personal Access Tokens (PAT) for GitHub authentication to avoid password issues.
