@@ -204,6 +204,16 @@ git show commit_id
 ```
 Show details of a specific commit.
 
+## 📬 Contact
+
+Maintained by **Balaji Kudumu**  
+If you use this project in your research, please give appropriate credit.
+
+---
+
+## 📄 License
+
+MIT License - see `LICENSE` file for details.
 ---
 
 **Tip:** Use SSH or Personal Access Tokens (PAT) for GitHub authentication to avoid password issues.
