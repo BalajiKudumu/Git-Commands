@@ -206,7 +206,9 @@ Show details of a specific commit.
 
 ## 📬 Contact
 
-Maintained by **Balaji Kudumu (balaji1997.dev@gmail.com)**  
+Maintained by **Balaji Kudumu**  
+Email: **balaji1997.dev@gmail.com**
+
 If you use this project in your research, please give appropriate credit.
 
 ---
